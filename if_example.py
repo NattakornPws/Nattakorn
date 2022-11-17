@@ -21,6 +21,7 @@ def ticket2a(age):
 
 if __name__ == '__main__':
     ticket(6)
+    print(ticket2a(7))
 # print(ticket2a(5))
 # age = 6
 # cost = 0 if age <= 5 or age >= 60 else 100
