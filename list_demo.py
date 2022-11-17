@@ -7,7 +7,7 @@ def demo():
     print(flowers[-1]) #-1 is the last index
     print(flowers[-1:-4:-2]) # -1 is the step
 
-demo()
+
 
 def operation():
     # How to define list
@@ -29,3 +29,7 @@ def operation():
     flowers.sort()
     sorted_flowers = sorted(flowers)
     print(flowers)
+
+
+if __name__ == "__main__":
+    demo()
